@@ -1,0 +1,39 @@
+/* Sproduct section */
+
+.sproduct h6 {
+    color: #BC8F8F;
+}
+
+.sproduct h3 {
+    font-weight: 700;
+    color: #BC8F8F;
+}
+
+.sproduct h2 {
+    font-weight: 600;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.sproduct input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.sproduct input:focus {
+    outline: none;
+}
+
+
+
