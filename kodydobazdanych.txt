@@ -1,0 +1,32 @@
+1 . CREATE DATABASE mbeauty;
+
+2 . CREATE TABLE  lakiery (
+	id int AUTO_INCREMENT PRIMAY KEY,
+	image varchar(255),
+	tytul varchar(255),
+	cena decimal (10,2)
+);
+
+2.1  INSTERT INTO lakiery ('image' , 'tytul' , 'cena')  VALUES ('img/lakiery/1.png' , 'Ciemny Fiolet' , 12.50),
+	('img/lakiery/2.png' , 'Ciemny Różowy' , 10.20),
+	('img/lakiery/3.jpg' , 'Turkusowy' , 15.00);
+
+3. CREATE TABLE  rzesy (
+	id int AUTO_INCREMENT PRIMAY KEY,
+	image varchar(255),
+	tytul varchar(255),
+	cena decimal (10,2)
+);
+
+3.1  INSTERT INTO rzesy ('image' , 'tytul' , 'cena') VALUES ('img/rzęsy/1.jpg' , 'Rzęsy długie' , 5.00),
+	('img/rzęsy/1.jpg' , 'Rzęsykrótkie' , 2.00);
+
+
+4. CREATE TABLE  lakier1 (
+	id int AUTO_INCREMENT PRIMAY KEY,
+	image varchar(255),
+	tytul varchar(255),
+	cena decimal (10,2)
+); 
+
+4.1 INSTERT INTO lakier1 ('image' , 'tytul' , 'cena') VALUES ('img/lakiery/1.png' , 'Ciemny Fiolet' , 12.50);
